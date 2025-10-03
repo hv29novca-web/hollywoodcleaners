@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hollywood Cleaners – Winter Is Coming Offers</title>
+  <meta name="description" content="Winter Is Coming combo offers from Hollywood Cleaners, Toronto. Jackets + Boots cleaning from $55. Offer ends Oct 31, 2025." />
+  <meta name="theme-color" content="#0b1220" />
+  <!-- Open Graph -->
+  <meta property="og:title" content="⚔️❄️ Hollywood Cleaners – Winter Is Coming ❄️⚔️" />
+  <meta property="og:description" content="Protect your cloaks, coats, and boots. Offer ends Oct 31, 2025. 700 Bay St, Toronto. (416) 595-1495" />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="en_CA" />
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#0b1220;       /* night blue */
+      --card:#121a2a;     /* deep slate */
+      --ink:#e8eefc;      /* ice */
+      --accent:#8fb7ff;   /* frost blue */
+      --gold:#d4b36a;     /* warm accent */
+      --muted:#a9b6d1;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0;
+      font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+      color:var(--ink);
+      background:
+        radial-gradient(1200px 600px at 20% -10%, #1a2440 0%, transparent 60%),
+        radial-gradient(1000px 600px at 80% -20%, #0e162b 0%, transparent 60%),
+        var(--bg);
+      line-height:1.6;
+      overflow-x:hidden;
+    }
+
+    /* Subtle snow effect */
+    .snow, .snow:before, .snow:after{
+      position:fixed; top:-10px; left:0; right:0; bottom:0; pointer-events:none;
+      background-image:
+        radial-gradient(2px 2px at 20px 30px, #fff7 50%, transparent 51%),
+        radial-gradient(2px 2px at 80px 110px, #fff6 50%, transparent 51%),
+        radial-gradient(3px 3px at 130px 80px, #fff5 50%, transparent 51%),
+        radial-gradient(2px 2px at 170px 20px, #fff4 50%, transparent 51%);
+      background-size:200px 200px;
+      animation: snowfall 18s linear infinite;
+      opacity:.6;
+    }
+    .snow:before{
+      content:""; animation-duration: 28s; background-size:180px 180px; opacity:.5;
+    }
+    .snow:after{
+      content:""; animation-duration: 38s; background-size:220px 220px; opacity:.4;
+    }
+    @keyframes snowfall {
+      from { transform: translateY(-10px) }
+      to   { transform: translateY(100vh) }
+    }
+
+    .wrap{
+      max-width:860px; margin:0 auto; padding:40px 20px 60px;
+    }
+    header{
+      text-align:center; margin:22px 0 10px;
+    }
+    .kicker{
+      color:var(--muted); letter-spacing:.12em; text-transform:uppercase; font-size:.85rem;
+    }
+    h1{
+      font-family:Cinzel, serif;
+      font-weight:700; font-size:clamp(2rem, 4vw, 3rem);
+      line-height:1.2; margin:.3rem 0 1rem;
+      text-shadow:0 0 16px #0008;
+    }
+    .sub{
+      font-size:1rem; color:var(--muted); margin-top:.3rem;
+    }
+    .card{
+      background:linear-gradient(180deg, #121a2ad0, #0e1526cc);
+      backdrop-filter:saturate(140%) blur(6px);
+      border:1px solid #233153;
+      border-radius:20px;
+      padding:24px;
+      box-shadow:0 10px 30px #0006, inset 0 1px 0 #ffffff10;
+    }
+    .lead{
+      font-size:1.05rem; color:#dfe8ff; margin:0 0 18px;
+    }
+    .offers{
+      display:grid; grid-template-columns:1fr; gap:16px; margin:16px 0 10px;
+    }
+    .offer{
+      border:1px solid #2b3c63; border-radius:16px; padding:16px 18px;
+      background:#0f1728;
+    }
+    .offer .emoji{ font-size:1.3rem; margin-right:.5rem }
+    .offer h3{
+      margin:0 0 6px; font-size:1.05rem; font-weight:700; color:var(--ink);
+    }
+    .price{ font-weight:700; color:var(--gold) }
+    .was{ color:var(--muted); text-decoration:line-through; margin-left:.35rem }
+    .meta{
+      display:grid; gap:10px; margin-top:16px; color:#dbe6ff;
+    }
+    .meta div{ display:flex; gap:.6rem; align-items:center }
+    .meta .label{ color:var(--muted) }
+    .cta{
+      display:flex; flex-wrap:wrap; gap:12px; margin-top:22px
+    }
+    .btn{
+      appearance:none; border:none; cursor:pointer; text-decoration:none;
+      padding:12px 16px; border-radius:999px; font-weight:600;
+      background:linear-gradient(180deg, #26407a, #1b2a4f);
+      color:white; border:1px solid #355290; box-shadow:0 6px
